@@ -1,0 +1,157 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Wed Dec 20 23:27:33 2017
+# Process ID: 7480
+# Current directory: E:/FPGA/game
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24228 E:\FPGA\game\game.xpr
+# Log file: E:/FPGA/game/vivado.log
+# Journal file: E:/FPGA/game\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA/game/game.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/FPGA/game/game.srcs/sources_1/bd/mbsys/ip/mbsys_mig_7series_0_1/board.prj'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/FPGA/ip_repo/KEYBOARD_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/FPGA/ip_repo/AUDIO_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.1/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_ctrl_addr_decode.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_ctrl_read.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_ctrl_reg.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_ctrl_reg_bank.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_ctrl_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_ctrl_write.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_mc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_mc_ar_channel.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_mc_aw_channel.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_mc_b_channel.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_arbiter.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_fsm.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_translator.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_mc_fifo.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_mc_incr_cmd.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_mc_r_channel.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_mc_simple_fifo.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_mc_wrap_cmd.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_mc_wr_cmd_fsm.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_axi_mc_w_channel.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_ddr_axi_register_slice.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_ddr_axi_upsizer.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_ddr_a_upsizer.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_ddr_carry_and.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_ddr_carry_latch_and.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_ddr_carry_latch_or.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_ddr_carry_or.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_ddr_command_fifo.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_ddr_comparator.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_ddr_comparator_sel.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_ddr_comparator_sel_static.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_ddr_r_upsizer.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/axi/mig_7series_v4_0_ddr_w_upsizer.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/clocking/mig_7series_v4_0_clk_ibuf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/clocking/mig_7series_v4_0_infrastructure.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/clocking/mig_7series_v4_0_iodelay_ctrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/clocking/mig_7series_v4_0_tempmon.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_arb_mux.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_arb_row_col.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_arb_select.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_bank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_bank_compare.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_bank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_bank_state.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_col_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_mc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_rank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_rank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_rank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/ecc/mig_7series_v4_0_ecc_buf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/ecc/mig_7series_v4_0_ecc_dec_fix.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/ecc/mig_7series_v4_0_ecc_gen.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/ecc/mig_7series_v4_0_ecc_merge_enc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/ecc/mig_7series_v4_0_fi_xor.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/ip_top/mig_7series_v4_0_memc_ui_top_axi.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/ip_top/mig_7series_v4_0_mem_intfc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_calib_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_if_post_fifo.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_mc_phy.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_mc_phy_wrapper.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_4lanes.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ck_addr_cmd_delay.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_dqs_found_cal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_dqs_found_cal_hr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_init.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_cntlr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_edge.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_lim.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_mux.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_po_cntlr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_samp.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_oclkdelay_cal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_prbs_rdlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_rdlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_tempmon.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrcal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrlvl_off_delay.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_ddr_prbs_gen.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_poc_cc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_poc_edge_store.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_poc_meta.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_poc_pd.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_poc_tap_base.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/phy/mig_7series_v4_0_poc_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/ui/mig_7series_v4_0_ui_cmd.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/ui/mig_7series_v4_0_ui_rd_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/ui/mig_7series_v4_0_ui_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/rtl/ui/mig_7series_v4_0_ui_wr_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/constraints/mysys_mig_7series_0_0.xdc'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mysys_mig_7series_0_0' generated file not found 'e:/FPGA/game/.Xil/Vivado-23996-DESKTOP-27DIMJ4/coregen/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/constraints/mysys_mig_7series_0_0_ooc.xdc'. Please regenerate to continue.
+INFO: [Common 17-14] Message 'IP_Flow 19-3664' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 894.297 ; gain = 113.949
+open_bd_design {E:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd}
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_1
+Adding cell -- xilinx.com:ip:microblaze:10.0 - microblaze_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_81M
+Adding cell -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_flash
+Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding cell -- xilinx.com:ip:axis_data_fifo:1.1 - axis_data_fifo_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_LED
+Adding cell -- xilinx.com:ip:axi_tft:2.0 - axi_tft_0
+Adding cell -- xilinx.com:user:AUDIO:1.0 - AUDIO_0
+Adding cell -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat
+Adding cell -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Adding cell -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding cell -- xilinx.com:user:KEYBOARD:1.0 - KEYBOARD_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:mig_7series:4.0 - mig_7series_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.3 - lmb_bram
+Successfully read diagram <mysys> from BD file <E:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd>
+open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 957.496 ; gain = 37.699
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 20 23:29:50 2017...

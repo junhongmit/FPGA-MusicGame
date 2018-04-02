@@ -1,0 +1,6 @@
+18:43:29 **** Incremental Build of configuration Debug for project mbsys_VGA_test_bsp_xtft_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+
+18:43:29 Build Finished (took 278ms)
+

@@ -1,0 +1,102 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port tft_vsync -pg 1 -y 1570 -defaultsOSRD
+preplace port tft_hsync -pg 1 -y 1550 -defaultsOSRD
+preplace port GPIO_LED -pg 1 -y 1080 -defaultsOSRD
+preplace port pwm_sd -pg 1 -y 1670 -defaultsOSRD
+preplace port dip_switches_16bits -pg 1 -y 1820 -defaultsOSRD
+preplace port sys_clock -pg 1 -y 90 -defaultsOSRD
+preplace port DDR2 -pg 1 -y 490 -defaultsOSRD
+preplace port PS2_CLK -pg 1 -y 1190 -defaultsOSRD
+preplace port pwm_out -pg 1 -y 1650 -defaultsOSRD
+preplace port SPI_0 -pg 1 -y 1720 -defaultsOSRD
+preplace port PS2_DATA -pg 1 -y 1210 -defaultsOSRD
+preplace port reset -pg 1 -y 70 -defaultsOSRD
+preplace portBus tft_vga_r -pg 1 -y 1590 -defaultsOSRD
+preplace portBus tft_vga_g -pg 1 -y 1610 -defaultsOSRD
+preplace portBus tft_vga_b -pg 1 -y 1630 -defaultsOSRD
+preplace inst rst_mig_7series_0_81M -pg 1 -lvl 5 -y 290 -defaultsOSRD
+preplace inst hier_mem|mig_7series_0 -pg 1 -lvl 2 -y 532 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 3 -y 230 -defaultsOSRD
+preplace inst axi_quad_spi_flash -pg 1 -lvl 6 -y 2114 -defaultsOSRD
+preplace inst hier_mem|axi_mem_intercon -pg 1 -lvl 1 -y 502 -defaultsOSRD
+preplace inst hier_mem|microblaze_0_local_memory -pg 1 -lvl 2 -y 202 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 4 -y 210 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -y 180 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -y 80 -defaultsOSRD
+preplace inst hier_periph -pg 1 -lvl 5 -y 630 -defaultsOSRD
+preplace inst hier_mem -pg 1 -lvl 6 -y 282 -defaultsOSRD
+preplace netloc hier_mem|Conn1 1 0 1 N
+preplace netloc hier_mem|microblaze_0_dlmb_1 1 0 2 NJ 172 N
+preplace netloc axi_quad_spi_0_SPI_0 1 6 1 4000J
+preplace netloc axi_intc_0_interrupt 1 3 3 1000 10 NJ 10 1960
+preplace netloc mig_7series_0_mmcm_locked 1 4 3 1570 50 NJ 50 3970
+preplace netloc hier_mem|Conn2 1 0 1 N
+preplace netloc hier_mem|clk_wiz_1_clk_out2 1 0 2 NJ 772 3500
+preplace netloc mig_7series_0_DDR2 1 6 1 4030J
+preplace netloc microblaze_0_mdm_axi 1 2 4 630 40 NJ 40 NJ 40 1950
+preplace netloc microblaze_0_axi_periph_M04_AXI 1 5 1 2020
+preplace netloc axi_tft_0_tft_vga_b 1 5 2 1960J 890 4000J
+preplace netloc hier_mem|Conn3 1 0 1 N
+preplace netloc hier_mem|microblaze_0_ilmb_1 1 0 2 NJ 192 N
+preplace netloc hier_mem|mig_7series_0_mmcm_locked 1 2 1 N
+preplace netloc hier_mem|Conn4 1 0 1 N
+preplace netloc hier_mem|rst_clk_wiz_1_100M_peripheral_aresetn 1 0 1 3150
+preplace netloc hier_mem|microblaze_0_Clk 1 0 2 3170 212 N
+preplace netloc microblaze_0_Clk 1 1 5 210 90 600 100 970 100 1530 410 2040
+preplace netloc hier_mem|mig_7series_0_ui_clk 1 0 3 3190 782 3520J 622 3800
+preplace netloc hier_mem|rst_clk_wiz_1_100M_interconnect_aresetn 1 0 1 3160
+preplace netloc axi_tft_0_tft_hsync 1 5 2 2050J 880 4030J
+preplace netloc axi_tft_0_tft_vga_r 1 5 2 1980J 910 3980J
+preplace netloc hier_mem|reset_1 1 0 2 NJ 792 3510
+preplace netloc axi_dma_0_M_AXI_SG 1 5 1 2100
+preplace netloc microblaze_0_M_AXI_DC 1 4 2 1500 380 2000J
+preplace netloc microblaze_0_ilmb_1 1 4 2 1500 180 2130J
+preplace netloc kdata_1 1 0 5 10J 640 NJ 640 NJ 640 NJ 640 NJ
+preplace netloc mdm_1_Interrupt 1 3 2 960 60 1520J
+preplace netloc AUDIO_0_pwm_sd 1 5 2 1950J 870 4010J
+preplace netloc axi_tft_0_tft_vsync 1 5 2 1990J 920 3970J
+preplace netloc sys_clock_1 1 0 1 NJ
+preplace netloc microblaze_0_axi_dp 1 4 1 1510
+preplace netloc axi_tft_0_tft_vga_g 1 5 2 1970J 900 3990J
+preplace netloc mig_7series_0_ui_clk 1 4 3 1590 70 1970J 40 3960
+preplace netloc hier_mem|microblaze_0_M_AXI_IC 1 0 1 N
+preplace netloc hier_mem|rst_clk_wiz_1_100M_bus_struct_reset 1 0 2 3150J 232 N
+preplace netloc axi_dma_0_M_AXI_MM2S 1 5 1 2080
+preplace netloc rst_mig_7series_0_81M_peripheral_aresetn 1 5 1 2060
+preplace netloc rst_clk_wiz_1_100M_interconnect_aresetn 1 2 4 620J 150 950J 110 1480 390 2090J
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 4 N 160 940J 90 NJ 90 2140J
+preplace netloc microblaze_0_M_AXI_IC 1 4 2 1550 200 2060J
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 4 610 50 NJ 50 1560 420 2000
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 3 590 130 990 120 1490J
+preplace netloc clk_wiz_1_locked 1 1 1 200
+preplace netloc hier_mem|mig_7series_0_DDR2 1 2 1 3790
+preplace netloc axi_gpio_LED_GPIO 1 5 2 1970J 80 4040J
+preplace netloc axi_dma_0_M_AXI_S2MM 1 5 1 2110
+preplace netloc axi_quad_spi_flash_ip2intc_irpt 1 4 3 1590 850 NJ 850 3950
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 4 3 1580 60 NJ 60 3950
+preplace netloc clk_wiz_1_clk_out2 1 1 5 200J 20 NJ 20 NJ 20 NJ 20 2150
+preplace netloc hier_mem|axi_mem_intercon_M00_AXI 1 1 1 N
+preplace netloc microblaze_0_dlmb_1 1 4 2 N 170 2160J
+preplace netloc clk_wiz_1_clk_out3 1 1 4 200J 80 NJ 80 NJ 80 1540
+preplace netloc hier_mem|microblaze_0_M_AXI_DC 1 0 1 N
+preplace netloc hier_mem|rst_mig_7series_0_81M_peripheral_aresetn 1 0 2 3180 802 3530
+preplace netloc axi_tft_0_M_AXI_MM 1 5 1 2070
+preplace netloc microblaze_0_debug 1 3 1 980
+preplace netloc kclk_1 1 0 5 0J 620 NJ 620 NJ 620 NJ 620 NJ
+preplace netloc reset_1 1 0 6 0 160 220 30 NJ 30 NJ 30 NJ 30 2120J
+preplace netloc mdm_1_debug_sys_rst 1 1 3 230 60 NJ 60 930
+preplace netloc hier_mem|mig_7series_0_ui_clk_sync_rst 1 2 1 N
+preplace netloc hier_periph_GPIO2 1 5 2 2010J 930 3960J
+preplace netloc AUDIO_0_pwm_out 1 5 2 2030J 860 4020J
+levelinfo -pg 1 -20 110 420 780 1240 1780 3230 4060 -top 0 -bot 2260
+levelinfo -hier hier_mem * 3350 3660 *
+",
+}
+{
+   da_axi4_cnt: "13",
+   da_board_cnt: "4",
+   da_clkrst_cnt: "1",
+   da_mb_cnt: "1",
+}

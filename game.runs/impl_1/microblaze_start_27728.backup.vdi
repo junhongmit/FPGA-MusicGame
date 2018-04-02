@@ -1,0 +1,608 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jun  1 09:24:47 2017
+# Process ID: 27728
+# Current directory: D:/FPGA/game/game.runs/impl_1
+# Command line: vivado.exe -log microblaze_start.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source microblaze_start.tcl -notrace
+# Log file: D:/FPGA/game/game.runs/impl_1/microblaze_start.vdi
+# Journal file: D:/FPGA/game/game.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source microblaze_start.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA/ip_repo/AUDIO_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.1/data/ip'.
+add_files: Time (s): cpu = 00:00:09 ; elapsed = 00:00:30 . Memory (MB): peak = 372.461 ; gain = 89.813
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 903 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_microblaze_0_0/mysys_microblaze_0_0.xdc] for cell 'nolabel_line59/mysys_i/microblaze_0/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_microblaze_0_0/mysys_microblaze_0_0.xdc] for cell 'nolabel_line59/mysys_i/microblaze_0/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_dlmb_v10_0/mysys_dlmb_v10_0.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/microblaze_0_local_memory/dlmb_v10/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_dlmb_v10_0/mysys_dlmb_v10_0.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/microblaze_0_local_memory/dlmb_v10/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_ilmb_v10_0/mysys_ilmb_v10_0.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/microblaze_0_local_memory/ilmb_v10/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_ilmb_v10_0/mysys_ilmb_v10_0.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/microblaze_0_local_memory/ilmb_v10/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_microblaze_0_axi_intc_0/mysys_microblaze_0_axi_intc_0.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_microblaze_0_axi_intc_0/mysys_microblaze_0_axi_intc_0.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/microblaze_0_axi_intc/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_mdm_1_0/mysys_mdm_1_0.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/mdm_1/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_mdm_1_0/mysys_mdm_1_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1291.359 ; gain = 512.813
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_mdm_1_0/mysys_mdm_1_0.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/mdm_1/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_clk_wiz_1_0/mysys_clk_wiz_1_0_board.xdc] for cell 'nolabel_line59/mysys_i/clk_wiz_1/inst'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_clk_wiz_1_0/mysys_clk_wiz_1_0_board.xdc] for cell 'nolabel_line59/mysys_i/clk_wiz_1/inst'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_clk_wiz_1_0/mysys_clk_wiz_1_0.xdc] for cell 'nolabel_line59/mysys_i/clk_wiz_1/inst'
+INFO: [Timing 38-2] Deriving generated clocks [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_clk_wiz_1_0/mysys_clk_wiz_1_0.xdc:57]
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_clk_wiz_1_0/mysys_clk_wiz_1_0.xdc] for cell 'nolabel_line59/mysys_i/clk_wiz_1/inst'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_rst_clk_wiz_1_100M_0/mysys_rst_clk_wiz_1_100M_0_board.xdc] for cell 'nolabel_line59/mysys_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_rst_clk_wiz_1_100M_0/mysys_rst_clk_wiz_1_100M_0_board.xdc] for cell 'nolabel_line59/mysys_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_rst_clk_wiz_1_100M_0/mysys_rst_clk_wiz_1_100M_0.xdc] for cell 'nolabel_line59/mysys_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_rst_clk_wiz_1_100M_0/mysys_rst_clk_wiz_1_100M_0.xdc] for cell 'nolabel_line59/mysys_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/constraints/mysys_mig_7series_0_0.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/mig_7series_0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_mig_7series_0_0/mysys_mig_7series_0_0/user_design/constraints/mysys_mig_7series_0_0.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/mig_7series_0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_mig_7series_0_0/mysys_mig_7series_0_0_board.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/mig_7series_0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_mig_7series_0_0/mysys_mig_7series_0_0_board.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/mig_7series_0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_rst_mig_7series_0_81M_0/mysys_rst_mig_7series_0_81M_0_board.xdc] for cell 'nolabel_line59/mysys_i/rst_mig_7series_0_81M/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_rst_mig_7series_0_81M_0/mysys_rst_mig_7series_0_81M_0_board.xdc] for cell 'nolabel_line59/mysys_i/rst_mig_7series_0_81M/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_rst_mig_7series_0_81M_0/mysys_rst_mig_7series_0_81M_0.xdc] for cell 'nolabel_line59/mysys_i/rst_mig_7series_0_81M/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_rst_mig_7series_0_81M_0/mysys_rst_mig_7series_0_81M_0.xdc] for cell 'nolabel_line59/mysys_i/rst_mig_7series_0_81M/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_timer_0_0/mysys_axi_timer_0_0.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/axi_timer_0/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_timer_0_0/mysys_axi_timer_0_0.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/axi_timer_0/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_gpio_0_0/mysys_axi_gpio_0_0_board.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/axi_gpio_LED/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_gpio_0_0/mysys_axi_gpio_0_0_board.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/axi_gpio_LED/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_gpio_0_0/mysys_axi_gpio_0_0.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/axi_gpio_LED/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_gpio_0_0/mysys_axi_gpio_0_0.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/axi_gpio_LED/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_quad_spi_0_0/mysys_axi_quad_spi_0_0_board.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/axi_quad_spi_flash/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_quad_spi_0_0/mysys_axi_quad_spi_0_0_board.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/axi_quad_spi_flash/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_quad_spi_0_0/mysys_axi_quad_spi_0_0.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/axi_quad_spi_flash/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_quad_spi_0_0/mysys_axi_quad_spi_0_0.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/axi_quad_spi_flash/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_tft_0_0/mysys_axi_tft_0_0.xdc] for cell 'nolabel_line59/mysys_i/axi_tft_0/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_tft_0_0/mysys_axi_tft_0_0.xdc] for cell 'nolabel_line59/mysys_i/axi_tft_0/U0'
+Parsing XDC File [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'LED16_B'. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED16_G'. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED16_R'. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED17_B'. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED17_G'. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED17_R'. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SD_RESET'. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:177]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:177]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SD_CD'. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:178]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:178]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SD_SCK'. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:179]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:179]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SD_CMD'. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:180]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:180]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SD_DAT[0]'. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:181]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:181]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SD_DAT[1]'. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:182]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:182]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SD_DAT[2]'. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:183]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:183]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SD_DAT[3]'. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:184]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc:184]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/FPGA/game/game.srcs/constrs_1/new/Nexys4DDR_Master.xdc]
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_microblaze_0_axi_intc_0/mysys_microblaze_0_axi_intc_0_clocks.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_microblaze_0_axi_intc_0/mysys_microblaze_0_axi_intc_0_clocks.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/microblaze_0_axi_intc/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_quad_spi_0_0/mysys_axi_quad_spi_0_0_clocks.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/axi_quad_spi_flash/U0'
+INFO: [Timing 38-2] Deriving generated clocks [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_quad_spi_0_0/mysys_axi_quad_spi_0_0_clocks.xdc:51]
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_quad_spi_0_0/mysys_axi_quad_spi_0_0_clocks.xdc] for cell 'nolabel_line59/mysys_i/hier_periph/axi_quad_spi_flash/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_tft_0_0/mysys_axi_tft_0_0_clocks.xdc] for cell 'nolabel_line59/mysys_i/axi_tft_0/U0'
+CRITICAL WARNING: [Common 17-161] Invalid option value '10.000 10.000' specified for 'value'. [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_tft_0_0/mysys_axi_tft_0_0_clocks.xdc:56]
+CRITICAL WARNING: [Common 17-161] Invalid option value '10.000 10.000' specified for 'value'. [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_tft_0_0/mysys_axi_tft_0_0_clocks.xdc:58]
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_axi_tft_0_0/mysys_axi_tft_0_0_clocks.xdc] for cell 'nolabel_line59/mysys_i/axi_tft_0/U0'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_cc_0/mysys_auto_cc_0_clocks.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/axi_mem_intercon/m00_couplers/auto_cc/inst'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_cc_0/mysys_auto_cc_0_clocks.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/axi_mem_intercon/m00_couplers/auto_cc/inst'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_2/mysys_auto_us_2_clocks.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/axi_mem_intercon/s02_couplers/auto_us/inst'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_2/mysys_auto_us_2_clocks.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/axi_mem_intercon/s02_couplers/auto_us/inst'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_1/mysys_auto_us_1_clocks.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/axi_mem_intercon/s01_couplers/auto_us/inst'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_1/mysys_auto_us_1_clocks.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/axi_mem_intercon/s01_couplers/auto_us/inst'
+Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_0/mysys_auto_us_0_clocks.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/axi_mem_intercon/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_0/mysys_auto_us_0_clocks.xdc] for cell 'nolabel_line59/mysys_i/hier_mem/axi_mem_intercon/s00_couplers/auto_us/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'microblaze_start'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: d:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_microblaze_0_0/data/mb_bootloop_le.elf 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 376 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 19 instances
+  IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 88 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 32 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 196 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 22 instances
+
+link_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 1330.563 ; gain = 958.102
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t-csg324'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t-csg324'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+Command: report_drc (run_mandatory_drcs) for: opt_checks
+INFO: [DRC 23-27] Running DRC with 2 threads
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1330.563 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 25 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: f4d9b08d
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1330.563 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 8 cells and removed 189 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 15 inverter(s) to 67 load pin(s).
+Phase 2 Constant propagation | Checksum: db60efaa
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1330.563 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 439 cells and removed 1058 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1a7abb482
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1330.563 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 2 cells and removed 1415 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1a7abb482
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1330.563 ; gain = 0.000
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 1a7abb482
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1330.563 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.105 . Memory (MB): peak = 1330.563 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1a7abb482
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1330.563 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Power 33-23] Power model is not available for STARTUP_7SERIES_GEN.STARTUP2_7SERIES_inst
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family artix7. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family artix7. Ignoring the voltage setting.
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 16 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 3 Total Ports: 32
+Ending PowerOpt Patch Enables Task | Checksum: 1415d9494
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.139 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1415d9494
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 1666.180 ; gain = 335.617
+34 Infos, 16 Warnings, 16 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:26 . Memory (MB): peak = 1666.180 ; gain = 335.617
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.135 . Memory (MB): peak = 1666.180 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA/game/game.runs/impl_1/microblaze_start_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Command: report_drc -file microblaze_start_drc_opted.rpt
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/FPGA/game/game.runs/impl_1/microblaze_start_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1666.180 ; gain = 0.000
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t-csg324'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t-csg324'
+Command: report_drc (run_mandatory_drcs) for: incr_eco_checks
+INFO: [DRC 23-27] Running DRC with 2 threads
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+Command: report_drc (run_mandatory_drcs) for: placer_checks
+INFO: [DRC 23-27] Running DRC with 2 threads
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 9fa9557e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.202 . Memory (MB): peak = 1666.180 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.089 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: a43efe57
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1362b14ac
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1362b14ac
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1362b14ac
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 129ceb326
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:46 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 129ceb326
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:46 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 12bd97fc8
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:51 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 137d53396
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:51 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1af73dbb0
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:51 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 1c15f27ba
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:00:53 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 1ed8811b3
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:00:53 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 3.7 Small Shape Detail Placement
+Phase 3.7 Small Shape Detail Placement | Checksum: 16dd4f26e
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:01:02 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 14ff695bb
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:03 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: 1b4b2a4af
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:04 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 3.10 Fast Optimization
+Phase 3.10 Fast Optimization | Checksum: 1bf59882e
+
+Time (s): cpu = 00:01:30 ; elapsed = 00:01:06 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1bf59882e
+
+Time (s): cpu = 00:01:30 ; elapsed = 00:01:06 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 225dabd2e
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Place 46-38] Processed net nolabel_line59/mysys_i/microblaze_0/U0/MicroBlaze_Core_I/sync_reset, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-41] BUFG insertion identified 1 candidate nets, 0 success, 1 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 225dabd2e
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:01:15 . Memory (MB): peak = 1666.180 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.556. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1ccfb6cac
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:22 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 1ccfb6cac
+
+Time (s): cpu = 00:01:49 ; elapsed = 00:01:22 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1ccfb6cac
+
+Time (s): cpu = 00:01:49 ; elapsed = 00:01:22 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 1ccfb6cac
+
+Time (s): cpu = 00:01:49 ; elapsed = 00:01:22 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: e5247b88
+
+Time (s): cpu = 00:01:49 ; elapsed = 00:01:23 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: e5247b88
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:23 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Ending Placer Task | Checksum: 63094ae7
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:23 . Memory (MB): peak = 1666.180 ; gain = 0.000
+54 Infos, 16 Warnings, 16 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:55 ; elapsed = 00:01:26 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:09 ; elapsed = 00:00:03 . Memory (MB): peak = 1666.180 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA/game/game.runs/impl_1/microblaze_start_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 1666.180 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.185 . Memory (MB): peak = 1666.180 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.313 . Memory (MB): peak = 1666.180 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.115 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t-csg324'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t-csg324'
+Running DRC as a precondition to command route_design
+Command: report_drc (run_mandatory_drcs) for: router_checks
+INFO: [DRC 23-27] Running DRC with 2 threads
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 60774414 ConstDB: 0 ShapeSum: 29206d3 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 155233215
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:31 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 155233215
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:32 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 155233215
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:33 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 155233215
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:33 . Memory (MB): peak = 1666.180 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 13b7db5c1
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:43 . Memory (MB): peak = 1666.180 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.760  | TNS=0.000  | WHS=-0.433 | THS=-1315.522|
+
+
+Phase 2.5 Update Timing for Bus Skew
+
+Phase 2.5.1 Update Timing
+Phase 2.5.1 Update Timing | Checksum: 116d18c8e
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:51 . Memory (MB): peak = 1666.180 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.760  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 2.5 Update Timing for Bus Skew | Checksum: 18536b158
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:51 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Phase 2 Router Initialization | Checksum: 18e468613
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:51 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 200a80bbd
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:56 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 2702
+ Number of Nodes with overlaps = 322
+ Number of Nodes with overlaps = 57
+ Number of Nodes with overlaps = 19
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.501  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1c378a163
+
+Time (s): cpu = 00:01:49 ; elapsed = 00:01:15 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.501  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 14b431aea
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:16 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 14b431aea
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:16 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 14b431aea
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:16 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 14b431aea
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:16 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 14b431aea
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:16 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 10267c18a
+
+Time (s): cpu = 00:01:55 ; elapsed = 00:01:19 . Memory (MB): peak = 1666.180 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.588  | TNS=0.000  | WHS=0.015  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 13c81f83c
+
+Time (s): cpu = 00:01:55 ; elapsed = 00:01:19 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 13c81f83c
+
+Time (s): cpu = 00:01:55 ; elapsed = 00:01:19 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 4.31205 %
+  Global Horizontal Routing Utilization  = 5.36317 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 173123ba2
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:19 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 173123ba2
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:19 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 180571655
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:21 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.588  | TNS=0.000  | WHS=0.015  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 180571655
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:22 . Memory (MB): peak = 1666.180 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:22 . Memory (MB): peak = 1666.180 ; gain = 0.000
+
+Routing Is Done.
+68 Infos, 16 Warnings, 16 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:02:04 ; elapsed = 00:01:25 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:12 ; elapsed = 00:00:04 . Memory (MB): peak = 1666.180 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA/game/game.runs/impl_1/microblaze_start_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Command: report_drc -file microblaze_start_drc_routed.rpt -pb microblaze_start_drc_routed.pb -rpx microblaze_start_drc_routed.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/FPGA/game/game.runs/impl_1/microblaze_start_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 1666.180 ; gain = 0.000
+Command: report_methodology -file microblaze_start_methodology_drc_routed.rpt -rpx microblaze_start_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file D:/FPGA/game/game.runs/impl_1/microblaze_start_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:01:43 ; elapsed = 00:00:55 . Memory (MB): peak = 2144.406 ; gain = 478.227
+Command: report_power -file microblaze_start_power_routed.rpt -pb microblaze_start_power_summary_routed.pb -rpx microblaze_start_power_routed.rpx
+INFO: [Power 33-23] Power model is not available for STARTUP_7SERIES_GEN.STARTUP2_7SERIES_inst
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family artix7. Ignoring the voltage setting.
+WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family artix7. Ignoring the voltage setting.
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+76 Infos, 19 Warnings, 16 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 2216.582 ; gain = 72.176
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+report_timing_summary: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2244.699 ; gain = 28.117
+INFO: [Common 17-206] Exiting Vivado at Thu Jun  1 09:31:22 2017...

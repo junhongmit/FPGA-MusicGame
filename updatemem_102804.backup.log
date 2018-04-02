@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# updatemem v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# 
+# Start of session at: Tue Jun  6 01:37:07 2017
+# Process ID: 102804
+# Current directory: d:/FPGA/game
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/SDK/2017.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo D:/FPGA/game/game.sdk/microblaze_start_hw_platform_0/microblaze_start.mmi -data C:/Xilinx/SDK/2017.1/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc nolabel_line59/mysys_i/microblaze_0 -bit D:/FPGA/game/game.sdk/microblaze_start_hw_platform_0/microblaze_start.bit -out D:/FPGA/game/game.sdk/microblaze_start_hw_platform_0/download.bit -force
+# Log file: d:/FPGA/game/updatemem.log
+# Journal file: d:/FPGA/game\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/SDK/2017.1/scripts/updatemem/main.tcl -notrace
+ Loading bitfile D:/FPGA/game/game.sdk/microblaze_start_hw_platform_0/microblaze_start.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream D:/FPGA/game/game.sdk/microblaze_start_hw_platform_0/download.bit...
+  update_mem: Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 515.910 ; gain = 465.242
+INFO: [Common 17-206] Exiting updatemem at Tue Jun  6 01:37:29 2017...

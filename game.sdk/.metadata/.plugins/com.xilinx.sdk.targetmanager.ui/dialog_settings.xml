@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="microblaze_start_hw_platform_0-target"/>
+	<item value="microblaze_start.bit" key="microblaze_start_hw_platform_0-bitFile"/>
+	<item value="microblaze_start.mmi" key="microblaze_start_hw_platform_0-bmmFile"/>
+	<item value="microblaze_start_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="Auto Detect" key="microblaze_start_hw_platform_0-device"/>
+	<item value="false" key="microblaze_start_hw_platform_0-partial_bit"/>
+	<item value="bootloop" key="microblaze_start_hw_platform_0-microblaze_0-initElf"/>
+</section>

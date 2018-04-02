@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;mbsys_VGA_test_bsp_xtft_example_1/src/xtmrctr_intr.c&apos;" deleteContents="false" description="Delete resource &apos;mbsys_VGA_test_bsp_xtft_example_1/src/xtmrctr_intr.c&apos;" element1="/mbsys_VGA_test_bsp_xtft_example_1/src/xtmrctr_intr.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1496276210775"/>
+</session>

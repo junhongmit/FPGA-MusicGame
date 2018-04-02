@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Tue May 30 18:01:19 2017
+# Process ID: 10336
+# Current directory: D:/FPGA/game/game.runs/impl_1
+# Command line: vivado.exe -log microblaze_start.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source microblaze_start.tcl -notrace
+# Log file: D:/FPGA/game/game.runs/impl_1/microblaze_start.vdi
+# Journal file: D:/FPGA/game/game.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source microblaze_start.tcl -notrace

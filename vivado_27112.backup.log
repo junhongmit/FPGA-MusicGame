@@ -1,0 +1,431 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Mon Jun  5 02:31:49 2017
+# Process ID: 27112
+# Current directory: D:/FPGA/game
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent89904 D:\FPGA\game\game.xpr
+# Log file: D:/FPGA/game/vivado.log
+# Journal file: D:/FPGA/game\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/game/game.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/FPGA/game/game.srcs/sources_1/bd/mbsys/ip/mbsys_mig_7series_0_1/board.prj'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA/ip_repo/AUDIO_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.1/data/ip'.
+open_project: Time (s): cpu = 00:00:39 ; elapsed = 00:01:28 . Memory (MB): peak = 969.512 ; gain = 294.004
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  5 02:52:42 2017...
+g cell -- xilinx.com:ip:axi_tft:2.0 - axi_tft_0
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_1
+Adding cell -- xilinx.com:ip:microblaze:10.0 - microblaze_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_81M
+Adding cell -- xilinx.com:user:AUDIO:1.0 - AUDIO_0
+Adding cell -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+WARNING: [BD 41-1282] Ignoring parameter HAS_BURST
+WARNING: [BD 41-1281] Parameter HAS_BURST is not defined on /axi_dma_0/M_AXIS_MM2S. Setting parameter on /axi_dma_0/M_AXIS_MM2S failed
+Adding cell -- xilinx.com:ip:axis_data_fifo:1.1 - axis_data_fifo_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_LED
+Adding cell -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_flash
+Adding cell -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding cell -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:mig_7series:4.0 - mig_7series_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.3 - lmb_bram
+Successfully read diagram <mysys> from BD file <D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd>
+open_bd_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:50 . Memory (MB): peak = 1055.438 ; gain = 85.926
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list CONFIG.C_NUM_INTR_INPUTS {5}] [get_bd_cells hier_periph/microblaze_0_axi_intc]
+CRITICAL WARNING: [BD 41-737] Cannot set the parameter C_NUM_INTR_INPUTS on /hier_periph/microblaze_0_axi_intc. It is read-only.
+endgroup
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list CONFIG.C_NUM_INTR_INPUTS {5}] [get_bd_cells hier_periph/microblaze_0_axi_intc]
+CRITICAL WARNING: [BD 41-737] Cannot set the parameter C_NUM_INTR_INPUTS on /hier_periph/microblaze_0_axi_intc. It is read-only.
+endgroup
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list CONFIG.C_NUM_INTR_INPUTS {5}] [get_bd_cells hier_periph/microblaze_0_axi_intc]
+CRITICAL WARNING: [BD 41-737] Cannot set the parameter C_NUM_INTR_INPUTS on /hier_periph/microblaze_0_axi_intc. It is read-only.
+endgroup
+report_ip_status -name ip_status 
+delete_bd_objs [get_bd_nets hier_periph/microblaze_0_xlconcat_dout]
+connect_bd_net [get_bd_pins hier_periph/microblaze_0_axi_intc/intr] [get_bd_pins hier_periph/microblaze_0_xlconcat/dout]
+validate_bd_design
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_NUM_INTR_INPUTS(3) on '/hier_periph/microblaze_0_axi_intc' with propagated value(5). Command ignored
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /hier_periph/axi_quad_spi_flash 
+                   #######################################################################################
+                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are synchronous to each other.
+                   ########################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /hier_periph/axi_quad_spi_flash 
+                   #######################################################################################
+                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are synchronous to each other.
+                   ########################################################################################
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /hier_periph/microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /hier_periph/microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+WARNING: [xilinx.com:ip:axi_intc:4.1-7] /hier_periph/microblaze_0_axi_intc: Interrupts type manual value (0xFFFFFFFE) does not match computed value (0xFFFFFFE6). Please review the manual value or consider using Auto instead.
+validate_bd_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:27 . Memory (MB): peak = 1212.664 ; gain = 11.211
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list CONFIG.C_KIND_OF_INTR.VALUE_SRC PROPAGATED] [get_bd_cells hier_periph/microblaze_0_axi_intc]
+endgroup
+validate_bd_design
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_NUM_INTR_INPUTS(3) on '/hier_periph/microblaze_0_axi_intc' with propagated value(5). Command ignored
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /hier_periph/axi_quad_spi_flash 
+                   #######################################################################################
+                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are synchronous to each other.
+                   ########################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /hier_periph/axi_quad_spi_flash 
+                   #######################################################################################
+                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are synchronous to each other.
+                   ########################################################################################
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /hier_periph/microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /hier_periph/microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+validate_bd_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:24 . Memory (MB): peak = 1224.848 ; gain = 9.762
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list CONFIG.C_NUM_INTR_INPUTS {5}] [get_bd_cells hier_periph/microblaze_0_axi_intc]
+CRITICAL WARNING: [BD 41-737] Cannot set the parameter C_NUM_INTR_INPUTS on /hier_periph/microblaze_0_axi_intc. It is read-only.
+endgroup
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list CONFIG.C_NUM_INTR_INPUTS {5}] [get_bd_cells hier_periph/microblaze_0_axi_intc]
+CRITICAL WARNING: [BD 41-737] Cannot set the parameter C_NUM_INTR_INPUTS on /hier_periph/microblaze_0_axi_intc. It is read-only.
+endgroup
+report_ip_status -name ip_status 
+make_wrapper -files [get_files D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd] -top
+INFO: [BD 41-1662] The design 'mysys.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd> 
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/hier_periph/microblaze_0_axi_intc/intr'(3) to net 'microblaze_0_xlconcat_dout'(5) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : D:/FPGA/game/game.srcs/sources_1/bd/mysys/hdl/mysys.v
+Verilog Output written to : D:/FPGA/game/game.srcs/sources_1/bd/mysys/hdl/mysys_wrapper.v
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_intc:4.1 axi_intc_0
+endgroup
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+delete_bd_objs [get_bd_cells axi_intc_0]
+make_wrapper -files [get_files D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd] -top
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_NUM_INTR_INPUTS(3) on '/hier_periph/microblaze_0_axi_intc' with propagated value(5). Command ignored
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /hier_periph/axi_quad_spi_flash 
+                   #######################################################################################
+                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are synchronous to each other.
+                   ########################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /hier_periph/axi_quad_spi_flash 
+                   #######################################################################################
+                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are synchronous to each other.
+                   ########################################################################################
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /hier_periph/microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /hier_periph/microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+Wrote  : <D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd> 
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/hier_periph/microblaze_0_axi_intc/intr'(3) to net 'microblaze_0_xlconcat_dout'(5) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : D:/FPGA/game/game.srcs/sources_1/bd/mysys/hdl/mysys.v
+Verilog Output written to : D:/FPGA/game/game.srcs/sources_1/bd/mysys/hdl/mysys_wrapper.v
+make_wrapper: Time (s): cpu = 00:00:39 ; elapsed = 00:00:30 . Memory (MB): peak = 1337.887 ; gain = 27.867
+startgroup
+set_property -dict [list CONFIG.FIFO_DEPTH {128}] [get_bd_cells axis_data_fifo_0]
+endgroup
+validate_bd_design
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_NUM_INTR_INPUTS(3) on '/hier_periph/microblaze_0_axi_intc' with propagated value(5). Command ignored
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /hier_periph/axi_quad_spi_flash 
+                   #######################################################################################
+                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are synchronous to each other.
+                   ########################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /hier_periph/axi_quad_spi_flash 
+                   #######################################################################################
+                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are synchronous to each other.
+                   ########################################################################################
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /hier_periph/microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /hier_periph/microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+validate_bd_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:24 . Memory (MB): peak = 1351.141 ; gain = 0.000
+make_wrapper -files [get_files D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd] -top
+INFO: [BD 41-1662] The design 'mysys.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd> 
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/hier_periph/microblaze_0_axi_intc/intr'(3) to net 'microblaze_0_xlconcat_dout'(5) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : D:/FPGA/game/game.srcs/sources_1/bd/mysys/hdl/mysys.v
+Verilog Output written to : D:/FPGA/game/game.srcs/sources_1/bd/mysys/hdl/mysys_wrapper.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [BD 41-1662] The design 'mysys.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/hier_periph/microblaze_0_axi_intc/intr'(3) to net 'microblaze_0_xlconcat_dout'(5) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : D:/FPGA/game/game.srcs/sources_1/bd/mysys/hdl/mysys.v
+Verilog Output written to : D:/FPGA/game/game.srcs/sources_1/bd/mysys/hdl/mysys_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_periph/microblaze_0_axi_intc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_periph/microblaze_0_xlconcat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_periph/mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_1_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_81M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_periph/axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_periph/axi_gpio_LED .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_periph/axi_quad_spi_flash .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_tft_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_periph/microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AUDIO_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_data_fifo_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_cc_0/mysys_auto_cc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/m00_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_5/mysys_auto_us_5_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/s05_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_4/mysys_auto_us_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/s04_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_3/mysys_auto_us_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/s03_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_2/mysys_auto_us_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/s02_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_1/mysys_auto_us_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/s01_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_0/mysys_auto_us_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/s00_couplers/auto_us .
+Exporting to file D:/FPGA/game/game.srcs/sources_1/bd/mysys/hw_handoff/mysys.hwh
+Generated Block Design Tcl file D:/FPGA/game/game.srcs/sources_1/bd/mysys/hw_handoff/mysys_bd.tcl
+Generated Hardware Definition File D:/FPGA/game/game.srcs/sources_1/bd/mysys/hdl/mysys.hwdef
+[Mon Jun  5 03:07:31 2017] Launched synth_1...
+Run output will be captured here: D:/FPGA/game/game.runs/synth_1/runme.log
+[Mon Jun  5 03:07:31 2017] Launched impl_1...
+Run output will be captured here: D:/FPGA/game/game.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:11 ; elapsed = 00:01:26 . Memory (MB): peak = 1437.434 ; gain = 0.000
+reset_run synth_1
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list CONFIG.C_NUM_INTR_INPUTS {5}] [get_bd_cells hier_periph/microblaze_0_axi_intc]
+CRITICAL WARNING: [BD 41-737] Cannot set the parameter C_NUM_INTR_INPUTS on /hier_periph/microblaze_0_axi_intc. It is read-only.
+endgroup
+startgroup
+set_property -dict [list CONFIG.IN0_WIDTH.VALUE_SRC PROPAGATED] [get_bd_cells hier_periph/microblaze_0_xlconcat]
+endgroup
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_intc:4.1 axi_intc_0
+endgroup
+set_property location {3 1131 1263} [get_bd_cells axi_intc_0]
+set_property location {3 1344 1262} [get_bd_cells axi_intc_0]
+set_property location {3 1287 1257} [get_bd_cells axi_intc_0]
+set_property location {3 1109 1259} [get_bd_cells axi_intc_0]
+ungroup_bd_cells [get_bd_cells hier_periph]
+set_property location {8 2760 72} [get_bd_cells axi_intc_0]
+connect_bd_net [get_bd_pins axi_intc_0/intr] [get_bd_pins microblaze_0_xlconcat/dout]
+connect_bd_net [get_bd_pins axi_intc_0/s_axi_aresetn] [get_bd_pins rst_clk_wiz_1_100M/peripheral_aresetn]
+connect_bd_net [get_bd_pins axi_intc_0/s_axi_aclk] [get_bd_pins clk_wiz_1/clk_out1]
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list CONFIG.C_HAS_FAST {1}] [get_bd_cells axi_intc_0]
+endgroup
+delete_bd_objs [get_bd_intf_nets microblaze_0_interrupt]
+connect_bd_intf_net [get_bd_intf_pins microblaze_0/INTERRUPT] [get_bd_intf_pins axi_intc_0/interrupt]
+connect_bd_net [get_bd_pins axi_intc_0/processor_rst] [get_bd_pins rst_clk_wiz_1_100M/mb_reset]
+connect_bd_net [get_bd_pins axi_intc_0/processor_clk] [get_bd_pins clk_wiz_1/clk_out1]
+delete_bd_objs [get_bd_intf_nets microblaze_0_intc_axi]
+connect_bd_intf_net [get_bd_intf_pins axi_intc_0/s_axi] -boundary_type upper [get_bd_intf_pins microblaze_0_axi_periph/M00_AXI]
+delete_bd_objs [get_bd_cells microblaze_0_axi_intc]
+validate_bd_design
+CRITICAL WARNING: [BD 41-1356] Address block </axi_intc_0/S_AXI/Reg> is not mapped into </microblaze_0/Data>. Please use Address Editor to either map or exclude it.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /axi_intc_0: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /axi_intc_0: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_flash 
+                   #######################################################################################
+                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are synchronous to each other.
+                   ########################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_flash 
+                   #######################################################################################
+                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are synchronous to each other.
+                   ########################################################################################
+validate_bd_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1457.098 ; gain = 0.000
+undo
+INFO: [Common 17-17] undo 'validate_bd_design'
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_cells microblaze_0_axi_intc]'
+undo
+INFO: [Common 17-17] undo 'connect_bd_intf_net [get_bd_intf_pins axi_intc_0/s_axi] -boundary_type upper [get_bd_intf_pins microblaze_0_axi_periph/M00_AXI]'
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_intf_nets microblaze_0_intc_axi]'
+delete_bd_objs [get_bd_intf_nets microblaze_0_intc_axi]
+delete_bd_objs [get_bd_cells microblaze_0_axi_intc]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/microblaze_0 (Periph)" intc_ip "Auto" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins axi_intc_0/s_axi]
+</axi_intc_0/S_AXI/Reg> is being mapped into </microblaze_0/Data> at <0x41200000 [ 64K ]>
+validate_bd_design
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /axi_intc_0: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /axi_intc_0: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_flash 
+                   #######################################################################################
+                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are synchronous to each other.
+                   ########################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_flash 
+                   #######################################################################################
+                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are synchronous to each other.
+                   ########################################################################################
+validate_bd_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1457.098 ; gain = 0.000
+set_property location {8 2769 -72} [get_bd_cells axi_intc_0]
+set_property name microblaze_0_axi_intc [get_bd_cells axi_intc_0]
+save_bd_design
+Wrote  : <D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd> 
+Wrote  : <D:/FPGA/game/game.srcs/sources_1/bd/mysys/ui/bd_64f8de21.ui> 
+make_wrapper -files [get_files D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd] -top
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_flash 
+                   #######################################################################################
+                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are synchronous to each other.
+                   ########################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_flash 
+                   #######################################################################################
+                   INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are synchronous to each other.
+                   ########################################################################################
+Wrote  : <D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd> 
+Verilog Output written to : D:/FPGA/game/game.srcs/sources_1/bd/mysys/hdl/mysys.v
+Verilog Output written to : D:/FPGA/game/game.srcs/sources_1/bd/mysys/hdl/mysys_wrapper.v
+make_wrapper: Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1457.098 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [BD 41-1662] The design 'mysys.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : D:/FPGA/game/game.srcs/sources_1/bd/mysys/hdl/mysys.v
+Verilog Output written to : D:/FPGA/game/game.srcs/sources_1/bd/mysys/hdl/mysys_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_1_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_81M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_LED .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_flash .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_tft_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AUDIO_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_data_fifo_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_cc_0/mysys_auto_cc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/m00_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_5/mysys_auto_us_5_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/s05_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_4/mysys_auto_us_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/s04_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_3/mysys_auto_us_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/s03_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_2/mysys_auto_us_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/s02_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_1/mysys_auto_us_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/s01_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/game/game.srcs/sources_1/bd/mysys/ip/mysys_auto_us_0/mysys_auto_us_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hier_mem/axi_mem_intercon/s00_couplers/auto_us .
+Exporting to file D:/FPGA/game/game.srcs/sources_1/bd/mysys/hw_handoff/mysys.hwh
+Generated Block Design Tcl file D:/FPGA/game/game.srcs/sources_1/bd/mysys/hw_handoff/mysys_bd.tcl
+Generated Hardware Definition File D:/FPGA/game/game.srcs/sources_1/bd/mysys/hdl/mysys.hwdef
+[Mon Jun  5 12:26:08 2017] Launched synth_1...
+Run output will be captured here: D:/FPGA/game/game.runs/synth_1/runme.log
+[Mon Jun  5 12:26:08 2017] Launched impl_1...
+Run output will be captured here: D:/FPGA/game/game.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 1494.805 ; gain = 20.340
+file copy -force D:/FPGA/game/game.runs/impl_1/microblaze_start.sysdef D:/FPGA/game/game.sdk/microblaze_start.hdf
+
+launch_sdk -workspace D:/FPGA/game/game.sdk -hwspec D:/FPGA/game/game.sdk/microblaze_start.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/FPGA/game/game.sdk -hwspec D:/FPGA/game/game.sdk/microblaze_start.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.1
+  **** Build date : Apr 14 2017-19:11:07
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1610.008 ; gain = 0.000
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210292747055A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210292747055A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292747055A
+set_property PROGRAM.FILE {D:/FPGA/game/game.runs/impl_1/microblaze_start.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/FPGA/game/game.runs/impl_1/microblaze_start.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+open_bd_design {D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd}
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292747055A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292747055A
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210292747055A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/FPGA/game/game.runs/impl_1/microblaze_start.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+launch_sdk -workspace D:/FPGA/game/game.sdk -hwspec D:/FPGA/game/game.sdk/microblaze_start.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/FPGA/game/game.sdk -hwspec D:/FPGA/game/game.sdk/microblaze_start.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292747055A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292747055A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292747055A
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost:3121.
+ Targets(s) ", jsn-Nexys4DDR-210292747055A" may be locked by another hw_server.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  6 01:39:27 2017...

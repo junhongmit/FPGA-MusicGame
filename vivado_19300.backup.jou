@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Nov 17 16:00:29 2017
+# Process ID: 19300
+# Current directory: E:/FPGA/game
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21352 E:\FPGA\game\game.xpr
+# Log file: E:/FPGA/game/vivado.log
+# Journal file: E:/FPGA/game\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA/game/game.xpr

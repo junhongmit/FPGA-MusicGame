@@ -1,0 +1,6 @@
+11:01:31 **** Auto Build of project Peripheral?Tests_bsp ****
+make -k all 
+make: *** 没有规则可以创建目标“all”.
+
+11:01:31 Build Finished (took 242ms)
+

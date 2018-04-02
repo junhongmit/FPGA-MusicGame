@@ -1,0 +1,17 @@
+17:02:29 **** Incremental Build of configuration Debug for project mbsys_memory ****
+make all 
+'Building file: ../src/memorytest.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -I../../mbsys_memory_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.4 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+../src/memorytest.c:54:6: error: conflicting types for 'print'
+ void print(char *ptr);
+      ^~~~~
+In file included from c:\xilinx\sdk\2017.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../src/memorytest.c:33:
+c:\xilinx\sdk\2017.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:231:9: note: previous declaration of 'print' was here
+ void    _EXFUN(print, (const char* ));
+         ^
+make: *** [src/memorytest.o] ´íÎó 1
+
+17:02:29 Build Finished (took 525ms)
+

@@ -1,0 +1,54 @@
+17:27:56 **** Incremental Build of configuration Debug for project mb_periph_test ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -I../../mb_periph_test_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.4 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.o" -o "src/testperiph.o" "../src/testperiph.c"
+In file included from ../../mb_periph_test_bsp/microblaze_0/include/xil_io.h:70:0,
+                 from ../../mb_periph_test_bsp/microblaze_0/include/xintc_l.h:94,
+                 from ../../mb_periph_test_bsp/microblaze_0/include/xintc.h:222,
+                 from ../src/testperiph.c:33:
+../../mb_periph_test_bsp/microblaze_0/include/xil_printf.h:40:6: error: conflicting types for 'print'
+ void print(char *ptr);
+      ^~~~~
+In file included from c:\xilinx\sdk\2017.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../src/testperiph.c:30:
+c:\xilinx\sdk\2017.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:231:9: note: previous declaration of 'print' was here
+ void    _EXFUN(print, (const char* ));
+         ^
+../src/testperiph.c: In function 'main':
+../src/testperiph.c:61:11: warning: unused variable 'GpioInput' [-Wunused-variable]
+     XGpio GpioInput;  /* The driver instance for GPIO Device configured as I/P */
+           ^~~~~~~~~
+../src/testperiph.c:56:9: warning: unused variable 'LedLoop' [-Wunused-variable]
+     u32 LedLoop;
+         ^~~~~~~
+../src/testperiph.c:55:9: warning: unused variable 'LedBit' [-Wunused-variable]
+     u32 LedBit;
+         ^~~~~~
+../src/testperiph.c:54:18: warning: unused variable 'Delay' [-Wunused-variable]
+     volatile int Delay;
+                  ^~~~~
+../src/testperiph.c:53:8: warning: unused variable 'Data' [-Wunused-variable]
+    u32 Data;
+        ^~~~
+../src/testperiph.c:51:19: warning: unused variable 'hier_periph_axi_timer_0_Timer' [-Wunused-variable]
+    static XTmrCtr hier_periph_axi_timer_0_Timer;
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/testperiph.c:50:16: warning: unused variable 'hier_periph_axi_quad_spi_flash_Spi' [-Wunused-variable]
+    static XSpi hier_periph_axi_quad_spi_flash_Spi;
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/testperiph.c:49:17: warning: unused variable 'intc' [-Wunused-variable]
+    static XIntc intc;
+                 ^~~~
+At top level:
+../src/testperiph.c:49:17: warning: 'intc' defined but not used [-Wunused-variable]
+../src/testperiph.c:50:16: warning: 'hier_periph_axi_quad_spi_flash_Spi' defined but not used [-Wunused-variable]
+    static XSpi hier_periph_axi_quad_spi_flash_Spi;
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/testperiph.c:51:19: warning: 'hier_periph_axi_timer_0_Timer' defined but not used [-Wunused-variable]
+    static XTmrCtr hier_periph_axi_timer_0_Timer;
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/testperiph.o] ´íÎó 1
+
+17:27:57 Build Finished (took 1s.736ms)
+

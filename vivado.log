@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Dec 22 19:30:01 2017
+# Process ID: 5860
+# Current directory: E:/FPGA/game
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15904 E:\FPGA\game\game.xpr
+# Log file: E:/FPGA/game/vivado.log
+# Journal file: E:/FPGA/game\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA/game/game.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/FPGA/game/game.srcs/sources_1/bd/mbsys/ip/mbsys_mig_7series_0_1/board.prj'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/FPGA/ip_repo/KEYBOARD_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/FPGA/ip_repo/AUDIO_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.1/data/ip'.
+open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 978.504 ; gain = 257.098
+launch_sdk -workspace E:/FPGA/game/game.sdk -hwspec E:/FPGA/game/game.sdk/microblaze_start.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/FPGA/game/game.sdk -hwspec E:/FPGA/game/game.sdk/microblaze_start.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 22 19:46:21 2017...

@@ -1,0 +1,122 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Mon Jun  5 02:31:49 2017
+# Process ID: 27112
+# Current directory: D:/FPGA/game
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent89904 D:\FPGA\game\game.xpr
+# Log file: D:/FPGA/game/vivado.log
+# Journal file: D:/FPGA/game\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/game/game.xpr
+open_bd_design {D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd}
+startgroup
+set_property -dict [list CONFIG.C_NUM_INTR_INPUTS {5}] [get_bd_cells hier_periph/microblaze_0_axi_intc]
+endgroup
+startgroup
+set_property -dict [list CONFIG.C_NUM_INTR_INPUTS {5}] [get_bd_cells hier_periph/microblaze_0_axi_intc]
+endgroup
+startgroup
+set_property -dict [list CONFIG.C_NUM_INTR_INPUTS {5}] [get_bd_cells hier_periph/microblaze_0_axi_intc]
+endgroup
+report_ip_status -name ip_status 
+delete_bd_objs [get_bd_nets hier_periph/microblaze_0_xlconcat_dout]
+connect_bd_net [get_bd_pins hier_periph/microblaze_0_axi_intc/intr] [get_bd_pins hier_periph/microblaze_0_xlconcat/dout]
+validate_bd_design
+startgroup
+set_property -dict [list CONFIG.C_KIND_OF_INTR.VALUE_SRC PROPAGATED] [get_bd_cells hier_periph/microblaze_0_axi_intc]
+endgroup
+validate_bd_design
+startgroup
+set_property -dict [list CONFIG.C_NUM_INTR_INPUTS {5}] [get_bd_cells hier_periph/microblaze_0_axi_intc]
+endgroup
+startgroup
+set_property -dict [list CONFIG.C_NUM_INTR_INPUTS {5}] [get_bd_cells hier_periph/microblaze_0_axi_intc]
+endgroup
+report_ip_status -name ip_status 
+make_wrapper -files [get_files D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd] -top
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_intc:4.1 axi_intc_0
+endgroup
+delete_bd_objs [get_bd_cells axi_intc_0]
+make_wrapper -files [get_files D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd] -top
+startgroup
+set_property -dict [list CONFIG.FIFO_DEPTH {128}] [get_bd_cells axis_data_fifo_0]
+endgroup
+validate_bd_design
+make_wrapper -files [get_files D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+startgroup
+set_property -dict [list CONFIG.C_NUM_INTR_INPUTS {5}] [get_bd_cells hier_periph/microblaze_0_axi_intc]
+endgroup
+startgroup
+set_property -dict [list CONFIG.IN0_WIDTH.VALUE_SRC PROPAGATED] [get_bd_cells hier_periph/microblaze_0_xlconcat]
+endgroup
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_intc:4.1 axi_intc_0
+endgroup
+set_property location {3 1131 1263} [get_bd_cells axi_intc_0]
+set_property location {3 1344 1262} [get_bd_cells axi_intc_0]
+set_property location {3 1287 1257} [get_bd_cells axi_intc_0]
+set_property location {3 1109 1259} [get_bd_cells axi_intc_0]
+ungroup_bd_cells [get_bd_cells hier_periph]
+set_property location {8 2760 72} [get_bd_cells axi_intc_0]
+connect_bd_net [get_bd_pins axi_intc_0/intr] [get_bd_pins microblaze_0_xlconcat/dout]
+connect_bd_net [get_bd_pins axi_intc_0/s_axi_aresetn] [get_bd_pins rst_clk_wiz_1_100M/peripheral_aresetn]
+connect_bd_net [get_bd_pins axi_intc_0/s_axi_aclk] [get_bd_pins clk_wiz_1/clk_out1]
+startgroup
+set_property -dict [list CONFIG.C_HAS_FAST {1}] [get_bd_cells axi_intc_0]
+endgroup
+delete_bd_objs [get_bd_intf_nets microblaze_0_interrupt]
+connect_bd_intf_net [get_bd_intf_pins microblaze_0/INTERRUPT] [get_bd_intf_pins axi_intc_0/interrupt]
+connect_bd_net [get_bd_pins axi_intc_0/processor_rst] [get_bd_pins rst_clk_wiz_1_100M/mb_reset]
+connect_bd_net [get_bd_pins axi_intc_0/processor_clk] [get_bd_pins clk_wiz_1/clk_out1]
+delete_bd_objs [get_bd_intf_nets microblaze_0_intc_axi]
+connect_bd_intf_net [get_bd_intf_pins axi_intc_0/s_axi] -boundary_type upper [get_bd_intf_pins microblaze_0_axi_periph/M00_AXI]
+delete_bd_objs [get_bd_cells microblaze_0_axi_intc]
+validate_bd_design
+undo
+undo
+undo
+undo
+delete_bd_objs [get_bd_intf_nets microblaze_0_intc_axi]
+delete_bd_objs [get_bd_cells microblaze_0_axi_intc]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/microblaze_0 (Periph)" intc_ip "Auto" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins axi_intc_0/s_axi]
+validate_bd_design
+set_property location {8 2769 -72} [get_bd_cells axi_intc_0]
+set_property name microblaze_0_axi_intc [get_bd_cells axi_intc_0]
+save_bd_design
+make_wrapper -files [get_files D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd] -top
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+file copy -force D:/FPGA/game/game.runs/impl_1/microblaze_start.sysdef D:/FPGA/game/game.sdk/microblaze_start.hdf
+
+launch_sdk -workspace D:/FPGA/game/game.sdk -hwspec D:/FPGA/game/game.sdk/microblaze_start.hdf
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210292747055A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210292747055A]
+open_hw_target
+set_property PROGRAM.FILE {D:/FPGA/game/game.runs/impl_1/microblaze_start.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/FPGA/game/game.runs/impl_1/microblaze_start.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+open_bd_design {D:/FPGA/game/game.srcs/sources_1/bd/mysys/mysys.bd}
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/FPGA/game/game.runs/impl_1/microblaze_start.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+launch_sdk -workspace D:/FPGA/game/game.sdk -hwspec D:/FPGA/game/game.sdk/microblaze_start.hdf
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121

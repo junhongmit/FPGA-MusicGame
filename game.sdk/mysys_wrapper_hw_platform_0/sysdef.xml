@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Project Version="1" Minor="0">
+	<BUILD_NUMBER Name="1056140"/>
+	<FULL_BUILD Name="SW Build 1056140 on Thu Oct 30 17:03:40 MDT 2014"/>
+	<MODE Name="Post-Bitstream"/>
+	<SYSTEMINFO BOARD="digilentinc.com:nexys4_ddr:part0:1.1" ARCH="artix7" PACKAGE="csg324" DEVICE="7a100t" SPEED="-1" LUT="" FF="" BRAM="" DSP=""/>
+	<HIERARCHY Name="mysys_i"/>
+	<File Type="HW_HANDOFF" Name="mysys.hwh" ModTime="1494584506"/>
+	<File Type="BIT" Name="mysys_wrapper.bit" ModTime="1494585394"/>
+	<File Type="BMM" Name="mysys_wrapper.mmi" ModTime="1494585350"/>
+	<File Type="BD_TCL" Name="mysys_bd.tcl" ModTime="1494584506"/>
+	<USEDRESOURCES LUT="" FF="" BRAM="" DSP=""/>
+</Project>
+

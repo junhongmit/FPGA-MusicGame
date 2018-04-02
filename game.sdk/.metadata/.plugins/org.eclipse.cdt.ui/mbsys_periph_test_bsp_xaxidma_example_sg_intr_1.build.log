@@ -1,0 +1,6 @@
+18:43:28 **** Incremental Build of configuration Debug for project mbsys_periph_test_bsp_xaxidma_example_sg_intr_1 ****
+make all 
+make: Nothing to be done for `all'.
+
+18:43:28 Build Finished (took 241ms)
+
