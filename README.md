@@ -17,8 +17,8 @@ xaxidma_example_sg_intr.c为导入的DMA测试SDK代码文件，并依此改写�
 xtft_example.c为main函数所在代码文件，亦是由导入的VGA测试代码文件修改而来的。
 xtmrctr_intr_example.c为Timer外设驱动函数所在代码文件，用于定时刷新画面。
 
-![软件部分代码结构树](https://github.com/john-junhong/FPGA-MusicGame/image1.jpg)
+![软件部分代码结构树](https://github.com/john-junhong/FPGA-MusicGame/blob/master/image1.jpg)
 图1. 软件部分代码结构树
 
-![贴图源文件和Image2LCD软件生成的图片数组文件](https://github.com/john-junhong/FPGA-MusicGame/image2.jpg)
+![贴图源文件和Image2LCD软件生成的图片数组文件](https://github.com/john-junhong/FPGA-MusicGame/blob/master/image2.jpg)
 图2. 贴图源文件和Image2LCD软件生成的图片数组文件
